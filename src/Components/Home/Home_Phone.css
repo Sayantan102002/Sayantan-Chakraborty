@@ -1,0 +1,127 @@
+@media(max-width:500px)
+{   
+    .img{
+        height: 21vh;
+        width: 39vw;
+    }
+    .img img{
+        height: 20vh;
+        width: 37vw;
+    }
+    .details{
+        height: 23vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* padding-bottom: 1vh; */
+    }
+    .container2 .details h1{
+        font-size: 6vw;
+    }
+    .btn1,.btn2{
+        height: 3vh;
+        font-size: 2vw;
+        margin-top: 1vh;
+        width: 15vw;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items:center ;
+        /* align-content: space-between; */
+        height:70%;
+    }
+}
+@media(min-width:501px) and (max-width:584px){
+    .img{
+        height: 26vh;
+        width: 27vw;
+    }
+    .img img{
+        height: 24vh;
+        width: 26vw;
+    }
+}
+@media(min-width:584px) and (max-width:620px){
+    .img{
+        height: 28vh;
+        width: 25vw;
+    }
+    .img img{
+        height: 26vh;
+        width: 24vw;
+    }
+}
+@media(min-width:620px) and (max-width:671px){
+    .img{
+        height: 30vh;
+        width: 25vw;
+    }
+    .img img{
+        height: 28vh;
+        width: 24vw;
+    }
+}
+@media(min-width:671px) and (max-width:768px){
+    .img{
+        height: 30vh;
+        width: 23vw;
+    }
+    .img img{
+        height: 28vh;
+        width: 22vw;
+    }
+    .container3{
+        width: 65%;
+    }
+}
+@media(min-width:768px) and (max-width:1025px){
+    .img{
+        height: 30vh;
+        width: 21vw;
+        
+    }
+    .img img{
+        height: 28vh;
+        width: 20vw;
+        /* object-fit: cover;
+        object-position: top; */
+    }
+    .container3{
+        width: 65%;
+    }
+}
+
+
+/* @media(max-height:1367px) and (min-height:731px){
+    .img{
+        height: 22vh;
+        width: 28vw;
+    }
+    .img img{
+        height: 20vh;
+        width: 27vw;
+    }
+}
+@media(min-height:732px) and (max-height:824px){
+    .img{
+        height: 20vh;
+        width: 37vw;
+    }
+    .img img{
+        height: 18vh;
+        width: 35vw;
+    }
+}
+@media(max-height:732px){
+    .img{
+        height: 20vh;
+        width: 30vw;
+    }
+    .img img{
+        height: 18vh;
+        width: 29vw;
+    }
+} */

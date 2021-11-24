@@ -1,0 +1,15 @@
+@media screen and (max-width:376px) {
+    .container_Education{
+        /* float: right; */
+        min-Width: 100vw;
+        max-Width: 100vw;
+        min-height: 100%;
+    
+    }
+    .details_Education{
+        min-Width: calc(100vw - 2vw);
+        max-Width: calc(100vw - 2vw);
+        
+    }
+    
+}
