@@ -1,0 +1,49 @@
+@media screen and (max-width:570px){
+    /* .img img{
+        width: 7vw;
+    } */
+    .hambtn{
+        display: block;
+    }
+    .contents, .dropdown{
+        display: none;
+    }
+    
+    .collapse:hover .list2
+    {
+        display: block;
+    }
+    .NavBar{
+        position: relative;
+    }
+    
+    
+    
+}
+@media screen and (max-width:1025px) {
+    /* .img img{
+        width: 7vw;
+        height: 6vh;
+    } */
+    
+}
+@media screen and (max-width:360px) {
+    /* .img img{
+        width: 9vw;
+        height: 6vh;
+    } */
+    .hambtn{
+        display: block;
+    }
+    .contents, .dropdown{
+        display: none;
+    }
+    
+    .collapse:hover .list2
+    {
+        display: block;
+    }
+    .NavBar{
+        position: relative;
+    }
+}

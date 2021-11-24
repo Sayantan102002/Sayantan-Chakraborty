@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+
+.container2{
+    width: 100%;
+    height:calc(100vh - 20vh);
+    /* float:right; */
+    position: relative;
+    /* background-image: url('../raw/wallpaper.jpg'); */
+    /* background-color: rgb(31, 109, 255); */
+    background-color: rgb(255, 82, 82);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* margin-bottom: 10vh; */
+}
+.container3{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 50vh;
+    /* background-color: blue; */
+}
+.container2 .details h1{
+    
+    /* position: absolute; */
+    font-size: 3vw;
+    font-family: 'Lora', serif;
+    color: white;
+    /* top: 25vh;
+    left:2vw; */
+    /* line-height: 7vh; */
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items:flex-end; */
+    /* margin:0 0 0 20vw;  */
+    /* background-color: red; */
+    height: 100%;
+    width: 35vw;
+    /* margin-right: 10vw; */
+}
+.img img{
+    height: 35vh;
+    width: 18vw;
+    border-radius:50vw;
+    
+    /* margin-left: 1vw; */
+}
+.img{
+    background-color: white;
+    height: 38vh;
+    width: 19vw;
+    border-radius:50vw;
+    /* margin: 0 10vw 0 0 ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .5vw .5vh 30px grey, -.5vw -.5vh 30px grey;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    /* justify-content: center; */
+    /* width: 100%;     */
+}
+.btn1, .btn2{
+    height: 5vh;
+    width: 8.5vw;
+    border: 2px solid purple;    
+    background:white;
+    outline: none;
+    position: relative; 
+    color: purple;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    /* box-shadow: inset 0 0 0 purple;     */
+    transition:ease-out 0.3s;   
+    z-index:1;  
+}
+.btn2{
+    margin-left: 1vw;
+       
+}
+.btn2::before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom:50%;
+    content: "";
+    background-color: purple;
+    border-radius: 0.5vw;
+}
+.btn1::before{
+    transition: 0.3s all ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom:50%;
+    content: "";
+    background-color: purple;
+    border-radius: 0.5vw;
+}
+.btn1:hover::before, .btn2:hover::before{
+    transition: 0.3s all ease;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    z-index: -1;
+}
+.btn1:hover,.btn2:hover{
+    cursor: pointer;
+    /* box-shadow: inset 8.5vw 0 0 purple; */
+    /* background-color: purple; */
+    border: 2px solid white;
+    color: white;
+    
+}
+
