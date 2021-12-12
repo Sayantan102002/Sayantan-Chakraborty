@@ -22,7 +22,7 @@
 }
 @media (max-width:500px)
 {
-<<<<<<< HEAD
+
     /* ::placeholder{
         font-size:1.5vh;
         display: flex;
@@ -62,7 +62,7 @@
     .textarea textarea{
         width: 62vw;
         font-size: 2.5vw;
-=======
+    }
     .form_Container{
         flex-direction: column;
     }
@@ -77,22 +77,20 @@
     }
     .textarea textarea{
         width: 40vw;
->>>>>>> 2124877cdb3c209dd99c15117f2f6304e611589f
     }
     .address, .email{
         height: 7vh;
         margin: 0 0 5vh 0;
     }
     .btn{
-<<<<<<< HEAD
-        /* padding: 0.5vh 3vw 0.5vh 1vw; */
+                    /* padding: 0.5vh 3vw 0.5vh 1vw; */
         padding: 0;
         border-radius: 20vw;
         font-size: 3vw;
         height: 3.5vh;
         width: 24.5vw;
-=======
+
         padding: 0.5vh 3vw 0.5vh 1vw;
->>>>>>> 2124877cdb3c209dd99c15117f2f6304e611589f
+
     }
 }
