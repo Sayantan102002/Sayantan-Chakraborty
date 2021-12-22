@@ -1,0 +1,20 @@
+.Techs p{
+    border: none;
+    color: white;
+    background-color: rgb(38, 160, 190);
+    outline: none;
+    font-size: 1.2vw;
+    padding: .5vh .5vw .5vh .5vw;
+    margin: 2vh .5vw 2vh .7vw;
+    border-radius: 5vw;
+}
+/* @media screen and (max-width:900px) {
+    .Techs p{
+        font-size:1.5vw;
+    }
+} */
+@media screen and  (max-width: 431px) {
+    .Techs p{
+        font-size: 2.5vw;
+    }
+}
